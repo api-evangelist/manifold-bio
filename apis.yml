@@ -1,8 +1,24 @@
 aid: manifold-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manifold-bio.png
 name: Manifold Bio
-description: 'Manifold Bio is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: engineered-biology. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Manifold Bio is a biotechnology company developing tissue-targeted biologic
+  medicines. It runs a high-throughput in vivo discovery engine that pairs massively multiplexed
+  in vivo screening — using mCode protein barcodes read out by DNA sequencing — with AI-powered
+  protein and antibody design (mBER) and engineered mShuttle delivery vehicles. Its pipeline
+  targets CNS diseases such as Alzheimer''s and Parkinson''s (amyloid-beta, tau, alpha-synuclein)
+  and peripheral cardiometabolic disease. Backed by Playground Global. The company publishes no
+  public developer API, SDK, documentation, or event surface as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/manifold-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Engineered Biology
+- Biotechnology
+- Drug Discovery
+- Protein Design
+- Therapeutics
+- Antibody Engineering
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/manifold-bio-domain-security.yml
 - type: Website
   url: https://www.manifold.bio/
